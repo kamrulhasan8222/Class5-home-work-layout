@@ -1,0 +1,284 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Montserrat:wght@300;400;600;700&display=swap');
+
+/* site default css */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    clear: both;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.col-70 {
+    width: 70%;
+    float: left;
+}
+
+.col-30 {
+    width: 30%;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bd-all {
+    border: 0.1rem solid #fff;
+    border-radius: 1rem;
+}
+
+
+/* Header Part */
+
+.header-part {
+    background-color: #0890F3;
+    color: #fff;
+    text-align: center;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.header-logo {
+    font-family: 'Festive', cursive;
+    font-size: 5rem;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.header-heading {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+
+/* Main Body */
+
+.main-body {
+    display: flex;
+    padding: 2rem 0;
+}
+
+
+/* Main Left part Css */
+
+.main-left,
+.main-right {
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 1px 3px 5px #000;
+}
+
+.main-left {
+    margin-right: 1.5rem;
+}
+
+.main-left>* {
+    margin-bottom: 4rem;
+}
+
+.intro>*,
+.web-design>*,
+.media-design>* {
+    margin-bottom: 1.2rem;
+}
+
+.intro-heading {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #0890F3;
+    font-weight: 700;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.web-design {
+    background-color: #a4a5a7;
+}
+
+.web-design>* {
+    padding-left: 1rem;
+}
+
+.web-design-heading {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #0890F3;
+    font-weight: 700;
+    background-color: #bfddf3;
+    padding: 1rem;
+}
+
+.web-design-image {
+    width: 30%;
+    height: 20rem;
+}
+
+.web-design-text {
+    display: inline-block;
+    width: 68%;
+    vertical-align: top;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.media-design {
+    background-color: #a4a5a7;
+}
+
+.media-design>* {
+    padding-left: 1rem;
+}
+
+.media-design-heading {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #0890F3;
+    font-weight: 700;
+    background-color: #bfddf3;
+    padding: 1rem;
+}
+
+.media-design-image {
+    width: 30%;
+    height: 20rem;
+}
+
+.media-design-text {
+    display: inline-block;
+    width: 68%;
+    vertical-align: top;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+
+/* Main body- right */
+
+
+/* menu-list */
+
+.menu-list-item {
+    list-style: none;
+    background: #f4f4f4;
+    margin-bottom: 0.5rem;
+    border-left: 1rem solid #999;
+}
+
+.menu-list-item-link {
+    font-size: 1.2rem;
+    line-height: 3rem;
+    font-weight: 600;
+    color: #0890F3;
+    text-transform: capitalize;
+    padding-left: 1rem;
+}
+
+.contact {
+    margin-top: 2rem;
+    background: #f4f4f4;
+    border: 0.1rem dashed #999;
+    padding: 2rem;
+}
+
+.contact>* {
+    margin-bottom: 1rem;
+}
+
+.contact-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #999;
+    margin-bottom: 2rem;
+}
+
+.telephone,
+.fax {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.email {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.about {
+    margin-top: 2rem;
+    background: #f4f4f4;
+    border: 0.1rem dashed #999;
+    padding: 2rem;
+}
+
+.about-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #999;
+    margin-bottom: 2rem;
+}
+
+.about-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: justify;
+    color: #000;
+}
+
+.thanks {
+    margin-top: 2rem;
+    background: #f4f4f4;
+    border: 0.1rem dashed #999;
+    padding: 2rem;
+}
+
+.thanks-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #999;
+    margin-bottom: 2rem;
+}
+
+.partner-list-item {
+    list-style: none;
+    margin-bottom: 0.5rem;
+}
+
+.partner-list-item-link {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    color: #0890F3;
+    text-transform: capitalize;
+}
